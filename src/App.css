@@ -1,7 +1,11 @@
 .App {
   text-align: center;
 }
-
+.SearchContainer {
+  border: 2px;
+  height: 200px;
+  width: 100px
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

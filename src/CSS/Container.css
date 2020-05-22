@@ -1,0 +1,33 @@
+.MainContainer {
+    border: 2px solid black;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    position: fixed;
+    display: block;
+}
+.SearchContainer{
+    border: 2px solid red;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.DisplayContainer {
+    left: 202px;
+    position: relative;
+    display: block;
+    border: 2px solid green;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.ProfileContainer {
+    position: relative;
+    box-sizing: border-box;
+    border: 2px solid yellowgreen;
+    display: inline-block;
+    min-height: 40px;
+    width: 33%;
+}
